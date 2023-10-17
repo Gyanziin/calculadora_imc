@@ -41,11 +41,11 @@ function App() {
         </div>
         <button onClick={calcularIMC} className="click">Calcular IMC</button>
         <button type="reset" className="reset">Limpar</button>
-        {imc && (
-          <div>
+        
+          <div className="resposta">
             <h2>Seu IMC é {imc}</h2>
           </div>
-        )}
+        
         </form>
       </div>
     </div>

@@ -102,3 +102,12 @@ button.reset {
     font-size: 16px;
     cursor: pointer;
 }
+
+.resposta {
+    margin-top: 30px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration-style: initial;
+}
